@@ -1,22 +1,21 @@
 public class Test01 {
 
-public static void main(String[] args) {
+	public static void main(String[] args) {
 
-int sum = 0;
+		int sum = 0;
 
-for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 100; i++) {
 
-if (i%2==1) {
+			if (i % 2 == 1) {
 
-sum += i;
+				sum += i;
+
+			}
+
+		}
+
+		System.out.println("累加和的值" + sum);
+
+	}
 
 }
-
-}
-
-System.out.println("累加和的值" + sum);
-
-}
-
-}
-新创建的分支
